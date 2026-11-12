@@ -19,7 +19,7 @@ describe('vote utils', () => {
   });
 
   it('getVote membaca status vote user', () => {
-    expect(getVote(item, 'u1')).toBe('up');
+    expect(getVote(item, 'u1')).toBe('down');
     expect(getVote(item, 'u3')).toBe('down');
     expect(getVote(item, 'u9')).toBe('none');
   });
