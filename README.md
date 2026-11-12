@@ -49,10 +49,10 @@ npm run build    # build produksi
 - **Component** (`src/components/*.test.jsx`): VoteButtons, LoginInput, CategoryFilter, CommentInput, ThreadItem.
 - **E2E** (`cypress/e2e/login.cy.js`): alur login. Response API di-stub (`cy.intercept`) agar deterministik.
 - **React Ecosystem**: Storybook (`src/stories/`, 3 komponen, 8 story).
-- **CI**: `.github/workflows/ci.yml` (GitHub Actions) menjalankan lint, `npm test`, dan `npm run e2e` pada push/PR ke `master`.
+- **CI**: `.github/workflows/ci.yml` (GitHub Actions) menjalankan lint, `npm test`, dan `npm run e2e` pada push/PR ke `main`.
 - **CD**: Vercel terhubung ke repository GitHub; `vercel.json` menangani SPA rewrite.
 - Tiap berkas tes memuat daftar skenario pengujian di komentar bagian atas.
 
 ### Catatan manual (dilakukan di GitHub/Vercel)
-URL Vercel: _isi setelah deploy_. Screenshot bukti ada di folder `screenshots/`
+URL Vercel: https://submission-akhir-react-intermediate.vercel.app/. Screenshot bukti ada di folder `screenshots/`
 (`1_ci_check_error`, `2_ci_check_pass`, `3_branch_protection`).
