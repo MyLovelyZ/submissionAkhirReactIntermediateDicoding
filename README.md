@@ -56,3 +56,5 @@ npm run build    # build produksi
 ### Catatan manual (dilakukan di GitHub/Vercel)
 URL Vercel: https://submission-akhir-react-intermediate.vercel.app/. Screenshot bukti ada di folder `screenshots/`
 (`1_ci_check_error`, `2_ci_check_pass`, `3_branch_protection`).
+
+> CI: semua pengujian dijalankan otomatis oleh GitHub Actions pada setiap PR ke `main`.
